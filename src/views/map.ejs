@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAPA</title>
+    <title>Map | TouchsMaps</title>
+    <link rel="stylesheet" href="/styles/map.css">
 </head>
 <body>
-    <h1>MAPA</h1>
-    <img src="<%=view.filePath%>" alt="">
+    <main class="container">
+        <a href="/players" class="link back">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                <path fill="currentColor" d="m14 18l-6-6l6-6l1.4 1.4l-4.6 4.6l4.6 4.6z" />
+            </svg>
+        </a>
+        <h1 class="title">Mapa de intervenciones de <b class="player_name"><%=view.player_name%></b></h1>
+
+        <img src="<%=view.filePath%>" alt="Imagen de un mapa de toques de <%=view.player_name%>" class="map_img">
+    </main>
+
 </body>
 </html>

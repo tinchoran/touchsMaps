@@ -1,0 +1,51 @@
+@import url(./index.css);
+
+.container{
+    min-height: 100vh;
+    padding: 0;
+    overflow: hidden;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+    animation: aparicion 1s ease;
+}
+
+.title{
+    font-size: 3.5rem;
+}
+
+.presentation_desc{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.link{
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 9px;
+    background-color: rgb(44, 91, 79);
+    padding: 1rem 2rem;
+    transition: .5s ease;
+    border: 2px solid transparent;
+}
+
+.link:hover{
+    border-color: rgb(44, 91, 79);
+    background-color: transparent;
+    transform: translateY(-2px);
+}
+
+@keyframes aparicion {
+    from{
+        transform: translateY(50px);
+        opacity: .20%;
+    } to {
+        transform: translateY(0);
+        opacity: 100%;
+    }
+}

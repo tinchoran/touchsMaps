@@ -1,0 +1,241 @@
+[
+    {
+      "name": "Enzo Fernandez",
+      "touchs": 328,
+      "nationality": "ARG",
+      "img": "enzo.webp",
+      "player_id": 38718
+    },
+    {
+      "name": "Rodrigo Javier De Paul",
+      "touchs": 242,
+      "nationality": "ARG",
+      "img": "depaul.webp",
+      "player_id": 7797
+    },
+    {
+      "name": "Lionel Andrés Messi Cuccittini",
+      "touchs": 242,
+      "nationality": "ARG",
+      "img": "messi.webp",
+      "player_id": 5503
+    },
+    {
+      "name": "Nicolás Hernán Otamendi",
+      "touchs": 215,
+      "nationality": "ARG",
+      "img": "otamendi.webp",
+      "player_id": 3090
+    },
+    {
+      "name": "Jules Koundé",
+      "touchs": 211,
+      "nationality": "FRA",
+      "img": "kounde.webp",
+      "player_id": 4445
+    },
+    {
+      "name": "Aurélien Djani Tchouaméni",
+      "touchs": 205,
+      "nationality": "FRA",
+      "img": "aurelien.webp",
+      "player_id": 10481
+    },
+    {
+      "name": "Cristian Gabriel Romero",
+      "touchs": 203,
+      "nationality": "ARG",
+      "img": "romero.webp",
+      "player_id": 20572
+    },
+    {
+      "name": "Dayotchanculle Upamecano",
+      "touchs": 198,
+      "nationality": "FRA",
+      "img": "upamecano.webp",
+      "player_id": 8519
+    },
+    {
+      "name": "Alexis Mac Allister",
+      "touchs": 196,
+      "nationality": "ARG",
+      "img": "alexis.webp",
+      "player_id": 27886
+    },
+    {
+      "name": "Raphaël Varane",
+      "touchs": 182,
+      "nationality": "FRA",
+      "img": "varane.webp",
+      "player_id": 5485
+    },
+    {
+      "name": "Adrien Rabiot",
+      "touchs": 176,
+      "nationality": "FRA",
+      "img": "rabiot.webp",
+      "player_id": 3026
+    },
+    {
+      "name": "Nicolás Alejandro Tagliafico",
+      "touchs": 165,
+      "nationality": "ARG",
+      "img": "tagliafico.webp",
+      "player_id": 5507
+    },
+    {
+      "name": "Julián Álvarez",
+      "touchs": 150,
+      "nationality": "ARG",
+      "img": "julian.webp",
+      "player_id": 29560
+    },
+    {
+      "name": "Kylian Mbappé Lottin",
+      "touchs": 149,
+      "nationality": "FRA",
+      "img": "mbappe.webp",
+      "player_id": 3009
+    },
+    {
+      "name": "Theo Bernard François Hernández",
+      "touchs": 145,
+      "nationality": "FRA",
+      "img": "theo.webp",
+      "player_id": 6704
+    },
+    {
+      "name": "Nahuel Molina Lucero",
+      "touchs": 142,
+      "nationality": "ARG",
+      "img": "molina.webp",
+      "player_id": 29201
+    },
+    {
+      "name": "Ángel Fabián Di María Hernández",
+      "touchs": 132,
+      "nationality": "ARG",
+      "img": "dimaria.webp",
+      "player_id": 2995
+    },
+    {
+      "name": "Randal Kolo Muani",
+      "touchs": 127,
+      "nationality": "FRA",
+      "img": "kolomuani.webp",
+      "player_id": 22097
+    },
+    {
+      "name": "Marcus Thuram",
+      "touchs": 119,
+      "nationality": "FRA",
+      "img": "thuram.webp",
+      "player_id": 2972
+    },
+    {
+      "name": "Marcos Javier Acuña",
+      "touchs": 112,
+      "nationality": "ARG",
+      "img": "acuna.webp",
+      "player_id": 19597
+    },
+    {
+      "name": "Antoine Griezmann",
+      "touchs": 103,
+      "nationality": "FRA",
+      "img": "griezmann.webp",
+      "player_id": 5487
+    },
+    {
+      "name": "Hugo Lloris",
+      "touchs": 97,
+      "nationality": "FRA",
+      "img": "lloris.webp",
+      "player_id": 3099
+    },
+    {
+      "name": "Kingsley Coman",
+      "touchs": 85,
+      "nationality": "FRA",
+      "img": "coman.webp",
+      "player_id": 8217
+    },
+    {
+      "name": "Damián Emiliano Martínez",
+      "touchs": 83,
+      "nationality": "ARG",
+      "img": "dibu.webp",
+      "player_id": 6909
+    },
+    {
+      "name": "Eduardo Camavinga",
+      "touchs": 83,
+      "nationality": "FRA",
+      "img": "camavinga.webp",
+      "player_id": 24778
+    },
+    {
+      "name": "Gonzalo Ariel Montiel",
+      "touchs": 55,
+      "nationality": "ARG",
+      "img": "montiel.webp",
+      "player_id": 28263
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "touchs": 52,
+      "nationality": "FRA",
+      "img": "dembele.webp",
+      "player_id": 5477
+    },
+    {
+      "name": "Leandro Daniel Paredes",
+      "touchs": 45,
+      "nationality": "ARG",
+      "img": "paredes.webp",
+      "player_id": 16308
+    },
+    {
+      "name": "Youssouf Fofana",
+      "touchs": 41,
+      "nationality": "FRA",
+      "img": "fofana.webp",
+      "player_id": 11990
+    },
+    {
+      "name": "Olivier Giroud",
+      "touchs": 36,
+      "nationality": "FRA",
+      "img": "giroud.webp",
+      "player_id": 3604
+    },
+    {
+      "name": "Lautaro Javier Martínez",
+      "touchs": 34,
+      "nationality": "ARG",
+      "img": "lautaro.webp",
+      "player_id": 11456
+    },
+    {
+      "name": "Ibrahima Konaté",
+      "touchs": 11,
+      "nationality": "FRA",
+      "img": "konate.webp",
+      "player_id": 11135
+    },
+    {
+      "name": "Paulo Bruno Exequiel Dybala",
+      "touchs": 11,
+      "nationality": "ARG",
+      "img": "dybala.webp",
+      "player_id": 5743
+    },
+    {
+      "name": "Germán Alejandro Pezzella",
+      "touchs": 3,
+      "nationality": "ARG",
+      "img": "pezzella.webp",
+      "player_id": 7161
+    }
+  ]
+  

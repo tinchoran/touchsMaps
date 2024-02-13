@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Players | TouchsMaps</title>
+    <link rel="stylesheet" href="./styles/players.css">
+</head>
+<body>
+    <main class="container">
+        <h1 class="title">Haz click sobre un jugador para ver su mapa</h1>
+        <section class="inter">
+            <a href="#argentina" class="dir_link selected"><img src="https://flagsapi.com/AR/flat/32.png" alt=""></a>
+            <a href="#france" class="dir_link"><img src="https://flagsapi.com/FR/flat/32.png" alt=""></a>
+        </section>
+        <section class="players_container">
+            <div id="argentina">
+                <div class="header argentina_header">
+                    <img src="https://flagsapi.com/AR/flat/48.png">
+                    <h2 class="header_title">ARGENTINA</h2>
+                    <img src="https://flagsapi.com/AR/flat/48.png">
+                </div>
+                <ul class="players_list arg_list">
+                    <% view.result.forEach(player => { %>
+                        <% if(player.nationality == "ARG") { %>
+                            <li class="player">
+                                <a href="/map/<%=player.player_id%>" class="player_link">
+                                    <span class="link_backdrop backdrop_argentina"></span>
+                                    <figure class="img_container">
+                                        <img src="<%=view.imgPath + player.img%>" alt="" class="player_img">
+                                    </figure>
+
+                                    <p class="player_name"><%=player.name%></p>
+                                    <p class="player_name"><b>Toques: </b><%=player.touchs%></p>
+                                </a>
+                            </li>
+                        <% }%>
+                        
+                    <% }) %>
+
+                </ul>
+            </div>
+            <div id="france">
+                <div class="header france_header">
+                    <img src="https://flagsapi.com/FR/flat/48.png">
+                    <h2 class="header_title">FRANCIA</h2>
+                    <img src="https://flagsapi.com/FR/flat/48.png">
+                </div>
+                <ul class="players_list fra_list">
+                    <% view.result.forEach(player => { %>
+                        <% if(player.nationality == "FRA") { %>
+                            <li class="player">
+                                <span class="link_backdrop backdrop_france"></span>
+                                <a href="/map/<%=player.player_id%>" class="player_link">
+                                    <figure class="img_container">
+                                        <img src="<%=view.imgPath + player.img%>" alt="" class="player_img">
+                                    </figure>
+ 
+                                    <p class="player_name"><%=player.name%></p>
+                                    <p class="player_name"><b>Toques: </b><%=player.touchs%></p>
+                                </a>
+                            </li>
+                        <% }%>
+                        
+                    <% }) %>
+    
+                </ul>
+            </div>
+            
+        </section>
+    </main>
+    <div class="loader">
+        <div class="gears">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5s3.5 1.57 3.5 3.5s-1.57 3.5-3.5 3.5z">
+                    <animateTransform attributeName="transform" attributeType="XML" dur="10s" from="0 12 12" repeatCount="indefinite" to="360 12 12" type="rotate" />
+                </path>
+            </svg> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5s3.5 1.57 3.5 3.5s-1.57 3.5-3.5 3.5z">
+                    <animateTransform attributeName="transform" attributeType="XML" dur="10s" from="360 12 12" repeatCount="indefinite" to="0 12 12" type="rotate" />
+                </path>
+            </svg>
+   
+        </div>
+        <p class="loader_title">El mapa está siendo creado</p>
+    </div>
+    <script>
+        const $btns = document.querySelectorAll(".dir_link");
+        const $links = document.querySelectorAll(".player_link");
+        const $container = document.querySelector(".container");
+        const $loader = document.querySelector(".loader");
+        $links.forEach(link => {
+            link.addEventListener("click", () => {
+                document.body.style.height = "100vh";
+                document.body.style.display = "flex";
+                document.body.style.alignItems = "center";
+                document.body.style.justifyContent = "center";
+                $container.style.display = "none";
+                $loader.style.display = "flex"
+            })
+        })
+        $btns.forEach(btn => {
+            btn.addEventListener("click", () => {
+                $btns.forEach(btn => btn.classList.remove("selected"))
+                btn.classList.add("selected")
+            })
+        })
+    </script>
+</body>
+</html>
